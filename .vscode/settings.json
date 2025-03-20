@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "connection_manager.h": "c",
+        "stdlib.h": "c"
+    }
+}
