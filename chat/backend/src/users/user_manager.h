@@ -12,6 +12,9 @@ extern "C" {
 // false si el usuario ya existía o hubo un error.
 bool register_user(const char *username);
 
+// Cambia el estado del usuario. Retorna true si se actualizó correctamente.
+bool change_user_status(const char *username, const char *new_status);
+
 // Función para eliminar un usuario de la lista (opcional).
 void remove_user(const char *username);
 
